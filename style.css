@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    background-color: #ecf3f5;
+    border: 12px solid black;
+    min-height: 100vh;
+}
+#heading{
+    max-width: 100%;
+    font-size: 27px;
+    background: rgb(9, 0, 0);
+    color: white;
+    padding: 14px 0;
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.top_sec{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.img{
+    border-radius: 50%;
+    overflow: hidden;
+} 
+.img,img{
+    height: 250px;
+    width: 280px;
+}
+.title h1{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.title h4{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+}
+.intro{
+    margin-top: 160px;
+    word-spacing: 1px
+}
+.intro h1{
+    font-size: 29.2px;
+}
+.intro p{
+    margin-top: 10px;
+    line-height: 30px;
+}
+blockquote{
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Dancing Script';
+}
+.t1{
+    display: flex;
+    border-radius: 4px;
+}
+.t1 img{
+    width: 250px;
+    margin-left: 2vh;
+}
+.records{
+    margin-top: 25px;
+}
+.records ul{
+    margin-top: 8px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+.awards{
+    margin-top: 28px;
+}
+.awards ul{
+    margin-top: 8px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+#seco{
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+#seco ul{
+    margin-top: 8px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+footer{
+    display: flex;
+    margin-top: 30px;
+    background: #000;
+    color: white;
+    
+}
+footer .text{
+    font-size: 5vh;
+    margin-top: 6vh;
+    color: white;
+    margin-right: 12vh;
+    margin-bottom: 10vh;
+    margin-left: 20vh;
+    font-family: 'Dancing Script';
+    border: 4px solid snow;
+}
+footer ol{
+    line-height: 30px;
+    margin: 12px;
+    font-size: 17px;
+}
